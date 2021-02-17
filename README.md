@@ -29,3 +29,26 @@ A minimal framework-agnostic setup for starting developing Tezos DApps quickly w
 6. Open http://localhost:1234 in your browser to see a sample application.
 
 [logo]: https://raw.githubusercontent.com/ecadlabs/taquito-boilerplate/master/assets/built-with-taquito.png "Built with Taquito"
+
+
+# Challenge
+## Smart Contract
+
+## Run testnet node
+
+> wget -O edonet.sh https://gitlab.com/tezos/tezos/raw/latest-release/scripts/tezos-docker-manager.sh
+> chmod +x edonet.sh
+> sudo ./edonet.sh start
+
+## Deploy smart contract to tezos testnet
+Create a testnet wallet on https://faucet.tzalpha.net/
+Set wallet on smartpy https://smartpy.io/wallet.html
+
+Develop smartpy smart contract https://smartpy.io/ide
+When developed, click on RUn
+Once run, click on deploy michelson contract
+Config and deploy
+
+Check deployed contract: https://smartpy.io/explorer.html?address=KT1NgZiXiDQrdRThSeVZ3exMEMTJNMC61gms
+
+Go to smart contract explorer
