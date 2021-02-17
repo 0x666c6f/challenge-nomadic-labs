@@ -11,6 +11,22 @@ h1 {
   color: #35636e;
 }
 
+#method-form {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#method-form label {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#method-form select {
+  width: 50%;
+  height: 50px;
+}
+
+
 .dialog {
   display: flex;
   flex-direction: column;

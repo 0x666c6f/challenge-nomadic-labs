@@ -1,7 +1,7 @@
 
 - [1. Nomadic Lab technical challenge](#1-nomadic-lab-technical-challenge)
   - [1.1. Smart Contract](#11-smart-contract)
-  - [1.2. Run testnet node](#12-run-testnet-node)
+  - [1.2. Run testnet node (with docker)](#12-run-testnet-node-with-docker)
   - [1.3. Deploying a smart contract to the Edo Tezos testnet](#13-deploying-a-smart-contract-to-the-edo-tezos-testnet)
   - [1.4. Launching the app](#14-launching-the-app)
 
@@ -49,7 +49,7 @@ def test():
     scenario.verify(c1.data.storedValue == 8)
 ```
 
-## 1.2. Run testnet node
+## 1.2. Run testnet node (with docker)
 To run and synchronize an Edo testnet node:
 ```shell
 > wget -O edonet.sh https://gitlab.com/tezos/tezos/raw/latest-release/scripts/tezos-docker-manager.sh
