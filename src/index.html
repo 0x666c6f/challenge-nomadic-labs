@@ -6,24 +6,52 @@
   </head>
   <body>
     <h1>Taquito Boilerplate App</h1>
-    <div id="dialog">
-      <div id="header">Show Balance</div>
-      <div id="content">
-        <div id="balance-form">
+    <div class="dialog">
+      <div class="header">Show Balance</div>
+      <div class="content">
+        <div class="form">
           <input
             id="address-input"
+            class="input"
             type="text"
             id="address"
             placeholder="Enter wallet address"
           />
-          <a id="show-balance-button" href="#">Show</a>
+          <a class="button" id="show-balance" href="#">Show</a>
         </div>
-        <div id="error-message" class="hide"></div>
-        <div id="balance-output" class="show"><span id="balance">0</span>ꜩ</div>
+        <div id="error-message" class="hide error-message"></div>
+        <div id="balance-output" class="show "><span id="balance">0</span>ꜩ</div>
+      </div>
+    </div>
+    <div class="dialog">
+      <div class="header">Contract</div>
+      <div class="content">
+        <div class="form">
+          <h3>Contract storage value: <span id="storageValue"></h3>
+          <a class="button" href="#">Refresh</a>
+        </div>
+        <div class="form">
+
+        <label for="method-select">Contract Method</label>
+
+        <select id="method-select" name="method-select">
+          </select>
+        </div>
+          <div class="form">
+            <input
+              id="method-input"
+              class="input"
+              type="text"
+              id="address"
+              placeholder="Enter method input"
+            />
+            <a id="execute" class="button" href="#">Go</a>
+          </div>
       </div>
     </div>
     <div id="footer">
-      <img src="../assets/built-with-taquito.png" />
+      <div id="contract-error-message" class="hide error-message"></div>
+      <div id="contract-output" class="show message"></div>
     </div>
     <script src="main.ts"></script>
   </body>

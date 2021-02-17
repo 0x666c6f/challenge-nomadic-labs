@@ -52,3 +52,9 @@ Config and deploy
 Check deployed contract: https://smartpy.io/explorer.html?address=KT1NgZiXiDQrdRThSeVZ3exMEMTJNMC61gms
 
 Go to smart contract explorer
+
+TODO !!!!!! Interagir avec, important
+
+
+# Dev of web interface
+Change network api to edonet : https://api.tez.ie/rpc/edonet
